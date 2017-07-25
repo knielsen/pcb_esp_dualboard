@@ -1,4 +1,4 @@
-update=Tue 18 Jul 2017 19:03:53 CEST
+update=Tue 25 Jul 2017 19:07:53 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../kicad/library
+LibDir=/home/knielsen/devel/kicad/library
 [eeschema/libraries]
 LibName1=knielsenlib
 LibName2=power

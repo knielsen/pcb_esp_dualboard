@@ -282,9 +282,9 @@
     (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
     (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
     (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -1.25 0 135) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.249999 0 135) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 2 smd rect (at 1.25 0 135) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.249999 0 135) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 32 /reset))
     (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
@@ -1045,7 +1045,7 @@
       (net 4 /rts))
     (pad 1 smd rect (at -1.5 -0.95 90) (size 1.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 22 /dtr2))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes\SOT-23.wrl
+    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1086,7 +1086,7 @@
       (net 8 /dtr))
     (pad 3 smd rect (at 1.5 0 90) (size 1.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 17 /gpio0))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes\SOT-23.wrl
+    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
