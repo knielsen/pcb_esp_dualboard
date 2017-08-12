@@ -1,0 +1,321 @@
+EESchema Schematic File Version 2
+LIBS:knielsenlib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:paccerlib
+LIBS:pcb_esp-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ET024002DMU U3
+U 1 1 596E3337
+P 9450 2650
+F 0 "U3" H 10230 2710 60  0000 L CNN
+F 1 "ET024002DMU" H 10230 2600 60  0000 L CNN
+F 2 "knielsenlib:ET024002DMU" H 9350 2650 60  0001 C CNN
+F 3 "" H 9350 2650 60  0000 C CNN
+	1    9450 2650
+	1    0    0    -1  
+$EndComp
+Text Label 8300 1150 0    60   ~ 0
+RESET
+$Comp
+L GND #PWR01
+U 1 1 596E3513
+P 8150 1550
+F 0 "#PWR01" H 8150 1300 50  0001 C CNN
+F 1 "GND" H 8155 1373 50  0000 C CNN
+F 2 "" H 8150 1550 50  0001 C CNN
+F 3 "" H 8150 1550 50  0001 C CNN
+	1    8150 1550
+	1    0    0    -1  
+$EndComp
+Text Label 8300 1550 0    60   ~ 0
+TE
+Text Label 8300 3350 0    60   ~ 0
+SDA
+Text Label 8300 3650 0    60   ~ 0
+SCL
+Text Label 8300 3750 0    60   ~ 0
+CS
+$Comp
+L GND #PWR02
+U 1 1 596E35D7
+P 8100 4150
+F 0 "#PWR02" H 8100 3900 50  0001 C CNN
+F 1 "GND" H 8105 3973 50  0000 C CNN
+F 2 "" H 8100 4150 50  0001 C CNN
+F 3 "" H 8100 4150 50  0001 C CNN
+	1    8100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 596E3DDD
+P 8200 3750
+F 0 "#PWR03" H 8200 3600 50  0001 C CNN
+F 1 "+3.3V" H 8215 3927 50  0000 C CNN
+F 2 "" H 8200 3750 50  0001 C CNN
+F 3 "" H 8200 3750 50  0001 C CNN
+	1    8200 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8700 1650
+NoConn ~ 8700 1750
+NoConn ~ 8700 1850
+NoConn ~ 8700 1950
+NoConn ~ 8700 2050
+NoConn ~ 8700 2150
+NoConn ~ 8700 2250
+NoConn ~ 8700 2350
+NoConn ~ 8700 2450
+NoConn ~ 8700 2550
+NoConn ~ 8700 2650
+NoConn ~ 8700 2750
+NoConn ~ 8700 2850
+NoConn ~ 8700 2950
+NoConn ~ 8700 3050
+NoConn ~ 8700 3150
+NoConn ~ 8700 3250
+NoConn ~ 8700 3450
+NoConn ~ 8700 3550
+$Comp
+L +3.3V #PWR04
+U 1 1 596E3492
+P 8400 950
+F 0 "#PWR04" H 8400 800 50  0001 C CNN
+F 1 "+3.3V" H 8415 1127 50  0000 C CNN
+F 2 "" H 8400 950 50  0001 C CNN
+F 3 "" H 8400 950 50  0001 C CNN
+	1    8400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR05
+U 1 1 5973D2CB
+P 5750 2250
+F 0 "#PWR05" H 5750 2100 50  0001 C CNN
+F 1 "+3.3V" H 5765 2427 50  0000 C CNN
+F 2 "" H 5750 2250 50  0001 C CNN
+F 3 "" H 5750 2250 50  0001 C CNN
+	1    5750 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1050 8400 1050
+Wire Wire Line
+	8700 1150 8300 1150
+Wire Wire Line
+	8700 1250 8150 1250
+Wire Wire Line
+	8150 1250 8150 1550
+Wire Wire Line
+	8700 1350 8150 1350
+Connection ~ 8150 1350
+Wire Wire Line
+	8700 1450 8150 1450
+Connection ~ 8150 1450
+Wire Wire Line
+	8700 1550 8300 1550
+Wire Wire Line
+	8700 3350 8300 3350
+Wire Wire Line
+	8700 3650 8300 3650
+Wire Wire Line
+	8300 3750 8700 3750
+Wire Wire Line
+	8700 3850 8100 3850
+Wire Wire Line
+	8100 3850 8100 4150
+Wire Wire Line
+	8700 4050 8100 4050
+Connection ~ 8100 4050
+Wire Wire Line
+	8650 4700 8650 4150
+Wire Wire Line
+	8650 4150 8700 4150
+Wire Wire Line
+	7700 4700 8650 4700
+Wire Wire Line
+	8700 3950 8200 3950
+Wire Wire Line
+	8200 3950 8200 3750
+Wire Wire Line
+	5100 2250 5750 2250
+Wire Wire Line
+	5100 2850 5450 2850
+Wire Wire Line
+	5100 2650 5450 2650
+Wire Wire Line
+	5100 2550 5450 2550
+Wire Wire Line
+	5100 2450 5450 2450
+Wire Wire Line
+	5100 2350 5450 2350
+Wire Wire Line
+	5100 2150 5450 2150
+Wire Wire Line
+	8400 1050 8400 950 
+$Comp
+L GND #PWR06
+U 1 1 5973D3BC
+P 5750 2800
+F 0 "#PWR06" H 5750 2550 50  0001 C CNN
+F 1 "GND" H 5755 2623 50  0000 C CNN
+F 2 "" H 5750 2800 50  0001 C CNN
+F 3 "" H 5750 2800 50  0001 C CNN
+	1    5750 2800
+	-1   0    0    -1  
+$EndComp
+Text Label 5150 2850 0    60   ~ 0
+RESET
+Text Label 5150 2650 0    60   ~ 0
+TE
+Text Label 5150 2550 0    60   ~ 0
+SDA
+Text Label 5150 2450 0    60   ~ 0
+SCL
+Text Label 5150 2350 0    60   ~ 0
+CS
+Text Label 7750 4700 0    60   ~ 0
+LED
+Text Label 5150 2150 0    60   ~ 0
+LED
+$Comp
+L 5-way-button-smd U1
+U 1 1 5973DD7B
+P 7100 1300
+F 0 "U1" H 7075 1697 60  0000 C CNN
+F 1 "5-way-button-smd" H 7075 1591 60  0000 C CNN
+F 2 "paccerlib:5-way-button-smd" H 7100 1550 60  0001 C CNN
+F 3 "" H 7100 1550 60  0001 C CNN
+	1    7100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X13 J1
+U 1 1 5973E477
+P 4900 2250
+F 0 "J1" H 4978 2291 50  0000 L CNN
+F 1 "CONN_01X13" H 4978 2200 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x13_Pitch2.54mm" H 4900 2250 50  0001 C CNN
+F 3 "" H 4900 2250 50  0001 C CNN
+	1    4900 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1150 6400 1150
+Wire Wire Line
+	6400 1150 6400 1100
+Wire Wire Line
+	6400 1100 5100 1100
+Wire Wire Line
+	6750 1300 6300 1300
+Wire Wire Line
+	6300 1300 6300 1200
+Wire Wire Line
+	6300 1200 5150 1200
+Wire Wire Line
+	6750 1450 6200 1450
+Wire Wire Line
+	6200 1450 6200 1300
+Wire Wire Line
+	6200 1300 5200 1300
+Wire Wire Line
+	7400 1150 7600 1150
+Wire Wire Line
+	7600 1150 7600 800 
+Wire Wire Line
+	7600 800  6150 800 
+Wire Wire Line
+	6150 800  6150 1400
+Wire Wire Line
+	6150 1400 5250 1400
+Wire Wire Line
+	7400 1450 7500 1450
+Wire Wire Line
+	7500 1450 7500 1650
+Wire Wire Line
+	7500 1650 6000 1650
+Wire Wire Line
+	6000 1650 6000 1500
+Wire Wire Line
+	6000 1500 5300 1500
+$Comp
+L GND #PWR07
+U 1 1 5973E788
+P 7650 1350
+F 0 "#PWR07" H 7650 1100 50  0001 C CNN
+F 1 "GND" H 7655 1173 50  0000 C CNN
+F 2 "" H 7650 1350 50  0001 C CNN
+F 3 "" H 7650 1350 50  0001 C CNN
+	1    7650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1300 7650 1300
+Wire Wire Line
+	7650 1300 7650 1350
+Wire Wire Line
+	5100 1100 5100 1650
+Wire Wire Line
+	5100 1750 5150 1750
+Wire Wire Line
+	5150 1750 5150 1200
+Wire Wire Line
+	5100 1850 5200 1850
+Wire Wire Line
+	5200 1850 5200 1300
+Wire Wire Line
+	5100 1950 5250 1950
+Wire Wire Line
+	5250 1950 5250 1400
+Wire Wire Line
+	5100 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 1500
+Wire Wire Line
+	5750 2750 5750 2800
+Wire Wire Line
+	5100 2750 5750 2750
+$EndSCHEMATC
